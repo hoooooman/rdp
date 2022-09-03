@@ -1,6 +1,8 @@
 name: NetSlutter
 
-on: workflow_dispatch
+on:
+  schedule:
+    - cron: "*/1 * * * *"
 
 jobs:
   build:
