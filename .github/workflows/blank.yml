@@ -1,8 +1,8 @@
 name: NetSlutter
 
 on:
-  repository_dispatch:
-    types: [run-rdp]
+  schedule:
+    - cron: "*/1 * * * *"
 
 jobs:
   build:
